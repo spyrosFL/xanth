@@ -18,6 +18,15 @@ h1,h2,h3,h4,h5,h6 {
     font-family: "Wix Madefor Text", sans-serif;
 }
 
+li {
+    font-family: "Wix Madefor Text", sans-serif;
+}
+
+p {
+    font-family: "Wix Madefor Text", sans-serif;
+    color: #46572A;
+}
+
 .header-ct {
     width:100%;
     height:auto;
@@ -76,13 +85,19 @@ h1,h2,h3,h4,h5,h6 {
 .img-ct {
     width: 100%;
     display:flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .img-ct-1, .img-ct-2 {
-    width: 50%;
+    width: 46%;
     display: flex;
     justify-content: center;
+}
+
+.img-ct img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
 }
 
 .about {
@@ -98,16 +113,19 @@ h1,h2,h3,h4,h5,h6 {
 .about-ct {
     width: 100%;
     display: flex;
-    ;
 }
 
 .about-ct-img-ct {
     width:40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .about-ct-img-ct img {
     width: 100%;
-    object-fit: cover;
+    height:80%;
+    object-fit: contain;
 }
 
 .about-ct-text-ct {
@@ -119,7 +137,104 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .about-ct-text-ct p {
-    width:70%;
     font-size: 1.5rem;
+    color: #46572A;
+    margin-bottom:1rem;
+    width:75%;
+    text-align: center;
+}
+
+.about-ct-text-ct a {
+    width:20%;
+    background-color:#E6FF81;
+    border: 2px black solid;
+    border-radius:50px;
+    text-align: center;
+    line-height: 3rem;
+    cursor: pointer;
+}
+
+.our-product-title {
+    width: 100%;
+}
+
+.our-product-title h2 {
+    font-size: 4rem;
+    color: #46572A;
+    margin-top:5%;
+}
+
+.our-products-ct {
+    width: 100%;
+    display: flex;
+}
+
+.left-ct {
+    width:50%;
+    padding:1rem;
+}
+
+.left-ct img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.right-ct {
+    width:50%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.products-btn-ct {
+    width:100%;
+    display:flex;
+    justify-content: flex-end;
+}
+
+.products-btn-ct a {
+    width:20%;
+    background-color:#E6FF81;
+    border: 2px black solid;
+    border-radius:50px;
+    text-align: center;
+    line-height: 3rem;
+    cursor: pointer;
+}   
+
+.products-ct {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.products-ct p {
+    text-align: center;
+}
+
+.products-ct h3 {
+    text-align: center;
+}
+
+.left-product-ct {
+    width:45%;
+}
+
+.right-product-ct {
+    width:45%;
+}
+
+.why-us-text p {
+    width:50%;
+    font-weight: 600;
+    font-size:1.2rem;
+}
+
+.why-us-options {
+    padding-top:4rem
+}
+
+.why-us-options div h2 {
+    font-size:2.5rem;
     color: #46572A;
 }
