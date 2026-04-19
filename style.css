@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap');
+
+body {
+    margin:0;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFDF6;
+}
+
+div {
+    font-family: "Wix Madefor Text", sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Wix Madefor Text", sans-serif;
+}
+
+.header-ct {
+    width:100%;
+    height:auto;
+    display:flex;
+    background-color: #FFFDF6;
+}
+
+.logo-ct {
+    width:50%;
+    padding-left: 4rem;;
+}
+
+.menu-ct {
+    width:50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 4rem;
+
+}
+
+.menu-ct a {
+    padding: 1rem;
+    font-family: "Wix Madefor Text", sans-serif;
+    cursor: pointer;
+}
+
+.main-ct {
+    width:95%;
+}
+
+.title-ct {
+    width:100%;
+    background-color: #FFFDF6;
+    display:flex;
+    flex-direction: column; 
+}
+
+.title-ct h1 {
+    font-family: "Wix Madefor Text", sans-serif;
+    font-size: 10rem;
+    text-align: center;
+    color: #46572A;
+    margin-bottom: 2rem;
+}
+
+.title-ct h4 {
+    font-family: "Wix Madefor Text", sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    color: #46572A;
+    margin-top: 0;
+    font-weight: 600;
+}
+
+.img-ct {
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+
+.img-ct-1, .img-ct-2 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.about {
+    width: 100%;
+    margin-top:5%;
+}
+
+.about h2 {
+    font-size: 4rem;
+    color: #46572A;
+}
+
+.about-ct {
+    width: 100%;
+    display: flex;
+    ;
+}
+
+.about-ct-img-ct {
+    width:40%;
+}
+
+.about-ct-img-ct img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.about-ct-text-ct {
+    width:60%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-ct-text-ct p {
+    width:70%;
+    font-size: 1.5rem;
+    color: #46572A;
+}
